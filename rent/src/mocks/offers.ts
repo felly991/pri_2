@@ -1,0 +1,157 @@
+import { FullOffer } from "../types/offer";
+
+const offers: FullOffer[] = [
+  {
+    id: "bbb06a0e-3f92-446d-9a68-cb64d5d38-e2b",
+    title: "Wood and stone place",
+    description:
+      "A new spacious villa, one floor. All commodities, jacuzzi, and beatiful scenery. Ideal families",
+    type: "apartment",
+    price: 370,
+    city: {
+      name: "Amsterdam",
+      location: {
+        latitude: 52.370216,
+        longitude: 4.895168,
+        zoom: 13,
+      },
+    },
+    location: {
+      latitude: 48.868610000000004,
+      longitude: 2.3424999,
+      zoom: 16,
+    },
+    isFavorite: true,
+    isPremium: false,
+    rating: 4.9,
+    bedrooms: 2,
+    goods: [
+      "Heating",
+      "Wi-Fi",
+      "Fridge",
+      "Laptop friendly workspace",
+      "Baby seat",
+      "Air conditioning",
+      "Washer",
+      "Towels",
+      "Dishwasher",
+      "Kitchen",
+      "Washing machine",
+      "Breakfast",
+      "Coffe machine",
+    ],
+    host: {
+      isPro: true,
+      name: "Angelina",
+      avatarUrl: "/img/avatar-angelina.jpg",
+    },
+    images: [
+      "/img/apartment-01.jpg",
+      "/img/apartment-02.jpg",
+      "/img/apartment-03.jpg",
+      "/img/apartment-03.jpg",
+      "/img/room.jpg",
+      "/img/studio-01.jpg",
+    ],
+    maxAdults: 3,
+  },
+  {
+    id: "a1c3d4f5-6b7e-8c9d-a0b1-c2d3e4f5g6h",
+    title: "Modern City Apartment",
+    description:
+      "A stylish apartment in the heart of the city. Perfect for couples or solo travelers. Close to all major attractions.",
+    type: "apartment",
+    price: 250,
+    city: {
+      name: "Amsterdam",
+      location: {
+        latitude: 52.370216,
+        longitude: 4.895168,
+        zoom: 13,
+      },
+    },
+    location: {
+      latitude: 52.3909553943508,
+      longitude: 4.929309666406198,
+      zoom: 16,
+    },
+    isFavorite: false,
+    isPremium: true,
+    rating: 4.7,
+    bedrooms: 1,
+    goods: [
+      "Wi-Fi",
+      "Heating",
+      "Kitchen",
+      "Laptop friendly workspace",
+      "Washer",
+      "Towels",
+      "Dishwasher",
+    ],
+    host: {
+      isPro: true,
+      name: "Max",
+      avatarUrl: "/img/avatar-max.jpg",
+    },
+    images: [
+      "/img/apartment-03.jpg",
+      "/img/apartment-03.jpg",
+      "/img/apartment-02.jpg",
+      "/img/apartment-01.jpg",
+      "/img/room.jpg",
+      "/img/studio-01.jpg",
+    ],
+    maxAdults: 2,
+  },
+  {
+    id: "b2d4e5f6-7c8d-9e0f-a1b2-c3d4e5f6g7h",
+    title: "Cozy Riverside Cottage",
+    description:
+      "A charming cottage by the river. Enjoy the peaceful surroundings and stunning views. Ideal for small families.",
+    type: "house",
+    price: 420,
+    city: {
+      name: "Amsterdam",
+      location: {
+        latitude: 52.370216,
+        longitude: 4.895168,
+        zoom: 13,
+      },
+    },
+    location: {
+      latitude: 52.3809553943508,
+      longitude: 4.939309666406198,
+      zoom: 16,
+    },
+    isFavorite: true,
+    isPremium: false,
+    rating: 4.8,
+    bedrooms: 3,
+    goods: [
+      "Wi-Fi",
+      "Heating",
+      "Kitchen",
+      "Baby seat",
+      "Air conditioning",
+      "Washing machine",
+      "Breakfast",
+      "Coffe machine",
+    ],
+    host: {
+      isPro: false,
+      name: "Angelina",
+      avatarUrl: "/img/avatar-angelina.jpg",
+    },
+    images: [
+      "/img/room.jpg",
+      "/img/apartment-01.jpg",
+      "/img/apartment-02.jpg",
+      "/img/apartment-03.jpg",
+      "/img/apartment-02.jpg",
+      "/img/studio-01.jpg",
+    ],
+    maxAdults: 4,
+  },
+];
+
+export default offers;
